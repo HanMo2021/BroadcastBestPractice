@@ -4,17 +4,5 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ZhujiemainActivity">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="98dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="52dp"
-        android:text="@string/button"
-        android:background="@drawable/btn_meihua"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".ZhujiemainActivity"
+    android:background="@drawable/beijin1"/>
