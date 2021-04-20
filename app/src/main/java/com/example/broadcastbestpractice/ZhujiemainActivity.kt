@@ -15,8 +15,8 @@ class ZhujiemainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()//隐藏标题栏
 
-        getWindow().setStatusBarColor(Color.TRANSPARENT);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
-        //设置顶部状态栏为透明
+        window.navigationBarColor = Color.TRANSPARENT;//设置底部按键栏为透明
+        window.statusBarColor = Color.TRANSPARENT;//设置顶部状态栏为透明
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION;
     }
 }

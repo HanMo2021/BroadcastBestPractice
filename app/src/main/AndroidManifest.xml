@@ -9,15 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".ZhujiemainActivity"></activity>
+
+
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <!--设置主Activity-->
         </activity>
-        <activity android:name=".MainActivity"></activity>
+
+
+
+
+        <activity android:name=".ZhujiemainActivity" />
+
+        <activity android:name=".MainActivity" ></activity>
+
+<!-- <activity android:name=".Activity名" />  <activity android:name=".类名" /></activity> -->
+<!-- 上面是注册Activity的两种方式-->
     </application>
 
 </manifest>
