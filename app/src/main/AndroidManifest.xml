@@ -11,24 +11,27 @@
         android:theme="@style/Theme.AppCompat">
 
 
-        <activity android:name=".LoginActivity">
+
+
+        <activity
+            android:name=".Shanping"
+            android:theme="@style/Theme.Splash"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <!--设置主Activity-->
+            <!-- 设置主Activity -->
         </activity>
 
 
-
-
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".ZhujiemainActivity" />
-
-        <activity android:name=".MainActivity" ></activity>
-
-<!-- <activity android:name=".Activity名" />  <activity android:name=".类名" /></activity> -->
-<!-- 上面是注册Activity的两种方式-->
+        <activity android:name=".MainActivity" />
+<!--  注册Activity有以下两种方式 -->
+<!--  <activity android:name=".Activity名"></activity> -->
+<!--  <activity android:name=".Activity名"/> -->
     </application>
 
 </manifest>
