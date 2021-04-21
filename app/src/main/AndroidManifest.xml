@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
+        <!--所有Activity应用的主题-->
 
 
 
 
         <activity
             android:name=".Shanping"
-            android:theme="@style/Theme.Splash"
-            >
+            android:theme="@style/Theme.Splash">
+            <!--该Activity调用的主题将全局定义的调用主题覆盖了-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,9 +30,9 @@
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".ZhujiemainActivity" />
         <activity android:name=".MainActivity" />
-<!--  注册Activity有以下两种方式 -->
-<!--  <activity android:name=".Activity名"></activity> -->
-<!--  <activity android:name=".Activity名"/> -->
+        <!--  注册Activity有以下两种方式 -->
+        <!--  <activity android:name=".Activity名"></activity> -->
+        <!--  <activity android:name=".Activity名"/> -->
     </application>
 
 </manifest>

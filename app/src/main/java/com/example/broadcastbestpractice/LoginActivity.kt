@@ -31,20 +31,20 @@ class LoginActivity : AppCompatActivity() {
         login.setOnClickListener {
             val account = accountEdit.text.toString()
             val password = passwordEdit.text.toString()
-            // 如果账号是admin且密码是123456，就认为登录成功
-            if (account == "王三岁" && password == "123456") {
+            // 如果账号是zhanhao且密码是123456，就认为登录成功
+            if (account == "zhanghao" && password == "123456") {
                 val intent = Intent(this, ZhujiemainActivity::class.java)
                 //跳转到ZhujiemainActivity
                 startActivity(intent)
                 finish()
             }
-            else if(account != "王三岁")
+            else if(account != "zhanghao")
             {
-                Toast.makeText(this, "王三岁你居然把账号输错了", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "账号错误", Toast.LENGTH_SHORT).show()
             }
             else if(password != "123456")
             {
-                Toast.makeText(this, "enmmmmmm 密码这个可能倒情有可原", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "密码错误", Toast.LENGTH_SHORT).show()
             }
         }
     }
