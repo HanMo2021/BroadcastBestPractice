@@ -9,15 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
+        <activity android:name=".YinyueActivity"></activity>
         <!-- 所有Activity应用的主题 -->
-
-
         <activity
             android:name=".Shanping"
             android:theme="@style/Theme.Splash">
 
             <!--
-            ndroid:theme="@style/Theme.Splash"调用的"@style/Theme.Splash"
+            android:theme="@style/Theme.Splash"调用的"@style/Theme.Splash"
             将全局定义的调用主题覆盖了
             -->
             <intent-filter>
@@ -31,7 +30,6 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".HuoxingActivity" />
         <activity android:name=".ShipingActivity" />
-        <activity android:name=".YinyueActivity" />
         <activity android:name=".ZhujiemianActivity" />
     </application>
 
