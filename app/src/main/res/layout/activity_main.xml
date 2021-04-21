@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fjhaiyangmuse"
     >
-<!--&lt;!&ndash;    登陆之后的所有的Activity页面的标题栏&ndash;&gt;-->
+<!--    登陆之后的所有的Activity页面的标题栏  -->
 <!--    <include layout="@layout/biaotilan"/>-->
 
     <Button
@@ -30,6 +30,7 @@
         android:text="Button"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="327dp" />
+        tools:layout_editor_absoluteY="327dp"
+        android:background="@drawable/btn_meihua"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
